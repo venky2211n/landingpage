@@ -110,7 +110,7 @@
         }
 
         /* This API call contacts the Google Sheets webapp API endpoint with the city parameter, and then triggers the displayFetchedData() function with the data returned from the sheet*/
-        fetch("https://script.google.com/macros/s/AKfycbw-m_wJqRUTvLvE15yhLexH-JC_gV_rY2DSUyjCRq7c1hiCQhJHnVUhVjSCpaIodLM/exec" + "?city=" + cityName)
+        fetch("https://script.google.com/macros/s/AKfycbzdUiOIHej1Qng-_eUqlXLIP3MSRoIIa5-i5g0LCZlpsCghL7E40eecATPLWCpiEPMz/exec" + "?city=" + cityName)
             .then((response) => {
                 return response.json();
             })
